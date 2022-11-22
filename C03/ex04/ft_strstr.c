@@ -31,13 +31,12 @@ char	*ft_strstr(char *str, char *to_find)
 			return (str + c1);
 		c1++;
 		c2 = 0;
-		str++;
 	}
 	return (0);
 }
 int main () {
    char haystack[16] = "42 es divertido";
-   char needle[10] = "42";
+   char needle[10] = "aaa";
 
 	char *ret;
 
